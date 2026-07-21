@@ -5596,6 +5596,7 @@ main.main-bg:after {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  white-space: nowrap;
 }
 @media (max-width: 1024px) {
   .archive-items .archive-item .item-top .buttons .listen-album-btn {
@@ -6961,6 +6962,16 @@ main.zIndex {
   .creative-img-wrap .style span {
     font-size: 14px;
     max-width: 100px;
+  }
+}
+
+.new-style-wrap .hide-text {
+  display: none;
+  margin-top: -10px;
+}
+@media (max-width: 767px) {
+  .new-style-wrap .hide-text {
+    display: block !important;
   }
 }
 
