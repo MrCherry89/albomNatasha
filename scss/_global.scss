@@ -125,18 +125,21 @@ a {
 
 .listen-blue-btn{
   background: blueviolet;
-  padding: 14px 24px;
-  border-radius: 4px;
+  padding: 10px 24px;
+  border-radius: 12px;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
     @media (max-width: 767px) {
-    padding: 8px 6px;
+    padding: 4px 6px;
     margin-right: -60px;
+    border-radius: 4px;
   }
-  svg{
+  img{
     margin-right: 10px;
+    width: 34px;
+    height: 34px;
         @media (max-width: 767px) {
     margin-right: 5px;
     width: 18px;
